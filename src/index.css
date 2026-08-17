@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #6DD5C4;
+    --primary-hover: #54c1af;
+    --primary-dark: #38a493;
+    --primary-light: #DFF6F0;
+    --primary-subtle: #f0faf7;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Custom utility colors */
+.bg-brand-primary {
+  background-color: #6DD5C4;
+}
+.bg-brand-primary:hover {
+  background-color: #55c4b3;
+}
+.bg-brand-light {
+  background-color: #DFF6F0;
+}
+.bg-brand-subtle {
+  background-color: #F2FBF9;
+}
+.text-brand-primary {
+  color: #278575;
+}
+.text-brand-dark {
+  color: #1a584e;
+}
+.border-brand-primary {
+  border-color: #6DD5C4;
+}
+.border-brand-light {
+  border-color: #DFF6F0;
+}
+.ring-brand-primary {
+  --tw-ring-color: #6DD5C4;
+}

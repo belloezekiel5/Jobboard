@@ -1,0 +1,6 @@
+{
+  "name": "JobBoard",
+  "description": "A modern, full-stack job platform connecting job seekers with top employers, featuring job search, applications, saved jobs, role-based dashboards, and admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
